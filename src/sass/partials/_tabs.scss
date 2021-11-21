@@ -1,0 +1,49 @@
+.nav-tabs {
+    margin-bottom: -2px !important;
+
+    & .nav-link {
+        border-radius: 4px 4px 0px 0px;
+        border: none;
+    }
+
+    & button {
+        color: $primary-color !important;
+        width: 118px;
+    }
+
+    & .active {
+        color: $gray-color !important;
+        box-shadow: 0px -2px 3px 1px rgba(0,0,0, 0.2);
+        clip-path: inset(-15px -15px 1px -15px);
+        border-radius: 10px 10px 0px 0px !important;
+    }
+}
+
+.tab-content {
+    border: none;
+    
+    & .tab-pane {
+        background: white;
+        border-radius: 0px 10px 10px 10px !important;
+        box-shadow: 0px 0px 3px 1px rgba(0,0,0, 0.2);
+        border: none;
+    }
+
+    & .row {
+        padding: 30px;
+    }
+
+    & img {
+        padding: 0;
+    }
+
+}
+
+.tab-share {
+    padding: 10px;
+}
+
+.tab-share > * {
+    padding-right: 15px;
+    font-size: 19px;
+}

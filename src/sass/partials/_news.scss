@@ -1,0 +1,44 @@
+.card {
+    justify-content: center;
+    margin-bottom: 24px;
+    
+}
+
+.tab__image {
+  padding: 20px;
+}
+
+.more-button {
+  width: 100%;
+  position: relative;
+  border: none;
+}
+
+.more-button::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 32px;
+  height: 100%;
+  background-color: $gray-color;
+  border-radius: 0px 4px 4px 0px;
+}
+
+
+
+.pagination {
+    padding-left: 12px;
+    
+    & .page-link {
+        color: $primary-color;
+    }
+
+    & .active {
+        & .page-link {
+            background-color: $primary-color;
+            color: white;
+            border-color: $primary-color;
+          }
+    }
+}

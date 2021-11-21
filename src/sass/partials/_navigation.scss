@@ -1,0 +1,72 @@
+nav {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.nav-background {
+    background-color: $header-color;
+}
+
+.form-control {
+  margin-right: 0px !important;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.btn {
+  background-color: $primary-color;
+}
+
+.navbar-brand {
+  color: $primary-color !important;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+  padding-left: 12px;
+}
+
+.navbar-toggler {
+    margin-right: 12px;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: black;
+  padding: 1px 15px;
+}
+
+.selected {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.btn-outline-success {
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.search-input--padding {
+    padding: 0px 12px;
+}
+
+.active {
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 745px) {
+
+    .navbar-nav a {
+        padding: 10px;
+        border-radius: 0px;
+        padding-left: 30px;
+    }
+
+    .search-input--padding {
+        margin: 30px 5px;
+    }
+}

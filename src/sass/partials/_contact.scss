@@ -1,0 +1,60 @@
+.contact--form {
+    padding: 20px;
+    background-color: #EFEFEF;
+
+    & button {
+        width: 100%;
+        background-color: $gray-color !important;
+    }
+}
+
+.form-check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-check-label {
+    font-size: 15px;
+}
+
+#formBasicCheckbox {
+    background-color: $primary-color;
+    border: none;
+    border-radius: 4px;
+    width: 33px;
+    min-width: 33px;
+    height: 33px;
+    margin-right: 20px;
+}
+
+.contact__info--styling {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+    
+    & .far, .fas {
+        font-size: 25px;
+        padding: 20px;
+    }
+    
+    & a {
+        color: $gray-color;
+        text-decoration: none;
+    }
+
+}
+
+.contact__info--address {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact__info--address > div {
+    padding-top: 20px;
+
+    & p {
+        margin-bottom: 0;
+    }
+}

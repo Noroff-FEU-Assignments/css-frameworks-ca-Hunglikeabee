@@ -1,0 +1,49 @@
+footer {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 0px;
+    margin-top: 30px;
+}
+
+footer  {
+    color: #767676;
+}
+
+.footer__container {
+    & .fab {
+        padding: 20px 15px;
+        font-size: 24px;
+    }
+
+    & .row {
+        justify-content: space-between ;
+    }
+
+    & .col-12 {
+        text-align: center;
+    }
+
+    & p {
+        text-align: center;
+        padding: 20px;
+        margin: 0px;
+    }
+
+}
+
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container-fluid {
+    flex: 1 0 auto;
+}
+
+body, html {
+    height: 100%;
+}
